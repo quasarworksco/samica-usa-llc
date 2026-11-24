@@ -102,7 +102,9 @@
 .investment-grid { display: grid; grid-template-columns: .7fr 1fr; gap: 25px clamp(25px, 7vw, 100px); align-items: center; }
 .investment h2 { margin-bottom: 20px; }
 .investment p { color: #cde5f6; max-width: 38ch; }
-.investment .button { margin-top: 23px; background: #a4efff; color: #092948; }
+.investment-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin-top: 23px; }
+.investment-actions .text-link:hover { color: #a4efff; }
+.investment .button { background: #a4efff; color: #092948; }
 .investment .button:hover { background: #fff; }
 .pricing { margin: 0; padding: clamp(18px, 4vw, 43px); border-radius: 22px; background: #143c5d; }
 .pricing div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 13px 0; border-bottom: 1px solid #ffffff40; }
