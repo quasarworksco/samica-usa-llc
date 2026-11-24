@@ -154,21 +154,40 @@ h3 { font-size: 1.2rem; font-weight: 800; }
 .booking { padding-block: clamp(48px, 8vw, 104px); }
 .booking-panel {
   display: grid;
-  grid-template-columns: 1fr minmax(0, .9fr);
-  gap: clamp(24px, 5vw, 65px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, .8fr);
+  gap: clamp(24px, 6vw, 88px);
   align-items: center;
-  padding: clamp(20px, 5vw, 64px);
-  border: 1px solid var(--line);
-  border-radius: 28px;
-  background: linear-gradient(125deg, #f3faff, #e6f4ff);
+  padding: clamp(22px, 6vw, 76px);
+  border-radius: clamp(22px, 4vw, 44px);
+  color: white;
+  background: linear-gradient(120deg, #092948 18%, #104c7d);
 }
-.booking-panel p { margin-top: 14px; color: var(--muted); max-width: 38ch; }
-.booking-summary { padding: clamp(15px, 3vw, 27px); border: 1px solid var(--line); border-radius: 18px; background: #fff; }
-.booking-summary dl { margin: 0 0 17px; }
-.booking-summary dl div { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding-block: 10px; border-bottom: 1px solid var(--line); }
-.booking-summary dt { color: var(--muted); font-size: .88rem; }
-.booking-summary dd { margin: 0; font-weight: 800; }
-.booking-summary .button { width: 100%; text-align: center; padding-inline: 11px; }
+.booking-panel h2 { max-width: 12ch; }
+.booking-panel > div:first-child > p { margin-top: 16px; color: #d6ebfb; max-width: 39ch; }
+.booking-summary {
+  padding: clamp(16px, 3.3vw, 35px);
+  border-radius: 22px;
+  background: #f7fcff;
+  color: var(--ink);
+  box-shadow: 0 16px 34px #031c3440;
+}
+.booking-visit { display: flex; align-items: center; gap: 11px; }
+.booking-visit h3 { margin: 0; font-size: 1.07rem; text-wrap: initial; }
+.booking-icon { display: grid; place-items: center; flex: 0 0 40px; height: 40px; border-radius: 12px; background: #dcefff; color: var(--blue); }
+.booking-price {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+  align-items: baseline;
+  max-width: none;
+  margin: 14px 0 19px;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: .9rem;
+}
+.booking-price strong { color: var(--ink); font-size: clamp(2.4rem, 5vw, 3.6rem); letter-spacing: -.04em; line-height: 1; font-weight: 800; }
+.booking-summary .button { width: 100%; text-align: center; padding-inline: 12px; }
 @media (max-width: 740px) {
   .booking-panel { grid-template-columns: 1fr; }
 }
