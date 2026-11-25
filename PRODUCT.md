@@ -1,4 +1,4 @@
-# Samica USA 4
+# SAMICA USA
 
 Samica ofrece consultas virtuales con médicos latinos. La landing se dirige a personas que buscan atención en español y quieren saber el precio antes de escribir. La consulta cuesta $70. La consulta puede incluir orientación sobre análisis y prescripción de medicamentos cuando corresponda.
 

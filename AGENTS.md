@@ -1,6 +1,6 @@
-# Samica USA LLC · sitio web de DGP Global Group
+# SAMICA USA · sitio web de DGP Global Group
 
-Este repositorio es el sitio web de **Samica USA LLC** (cliente: Carlos Carreño). Lo publica GitHub Pages desde la rama `main`.
+Este repositorio es el sitio web de **SAMICA USA** (cliente: Carlos Carreño). Lo publica GitHub Pages desde la rama `main`.
 
 Estas instrucciones valen para Codex, Claude o cualquier asistente. Lee también `CONTEXTO-DGP.md`: explica quién es DGP Global Group, sus servicios y cómo prefiere trabajar el dueño. Respóndele en español sencillo.
 
@@ -13,7 +13,7 @@ Cuando te digan "empecemos", **empieza a construir** con los datos de abajo, el 
 - Para pedidos típicos (panel `/admin`, formulario, bilingüe, `/entrega`) sigue las recetas de `CONTEXTO-DGP.md` sin preguntar.
 
 ## Datos que ya tenemos
-- **Empresa:** Samica USA LLC
+- **Empresa:** SAMICA USA
 - **Rubro / qué hace:** Telehealth
 - **Estilo visual:** Glassmorphism
 - **Página de ejemplo:** _sin definir_

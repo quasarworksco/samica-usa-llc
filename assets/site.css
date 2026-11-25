@@ -121,7 +121,6 @@ h3 { font-size: 1.2rem; font-weight: 800; }
   .button { transition: none; }
   .button:hover, .button:active { transform: none; }
 }
-.brand small b { display: inline-grid; place-items: center; min-width: 1.2em; padding: .2em .28em; border-radius: .38em; background: #d7efff; color: #09488a; }
 
 .visit-steps { padding: 0; margin: 21px 0 0; list-style: none; counter-reset: visit; }
 .visit-steps li {
