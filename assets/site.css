@@ -66,7 +66,9 @@ h1 { max-width: 10.4em; font-size: clamp(2.8rem, 5.6vw, 5.15rem); font-weight: 8
 }
 .price strong { font-size: clamp(2.25rem, 4vw, 3rem); letter-spacing: -.038em; font-weight: 800; }
 .price b { font-size: .92rem; }
-.price + .hero-actions { margin-top: 18px; }
+.access-note { margin-top: 12px; max-width: 45ch; color: var(--muted); font-size: .9rem; }
+.access-note + .hero-actions { margin-top: 18px; }
+.booking-summary .access-note { margin: 0 0 16px; }
 .hero-media { position: relative; margin: 0; min-width: 0; }
 .hero-media::before { position: absolute; inset: 9px -10px -10px 10px; content: ""; border: 1px solid #64b5e5; border-radius: 32px 32px 88px 32px; }
 .hero-media img { position: relative; aspect-ratio: 1.15; object-fit: cover; border-radius: 32px 32px 88px 32px; background: #c0e6fa; }
